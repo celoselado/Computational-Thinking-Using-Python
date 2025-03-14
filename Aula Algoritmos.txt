@@ -1,0 +1,34 @@
+
+Algoritmo VERIFICADOR_MAIORIDADE
+
+	VAR idade = INTEIRO
+	
+INICIO
+		
+		IMPRIMA ("Digite a sua idade:")
+		LEIA IDADE
+		SE IDADE >= 18
+			IMPRIMA ("Você é maior de idade!")
+		SENAO
+			IMPRIMA ("Você é menor de idade!")
+
+FIM
+
+Algoritimo CALCULA_MEDIA
+
+	VAR nota1, nota2, media = REAL
+	
+INICIO
+
+		IMPRIMA ("Digite a primeira nota do aluno:")
+		LEIA nota1
+		IMPRIMA ("Digite a segunda nota do aluno:")
+		LEIA nota2
+		media = (nota1 + nota2) / 2
+		SE media >= 7
+			IMPRIMA ("Aprovado")
+		SENAO 
+			IMRPIMA ("Reprovado")
+		
+FIM
+
