@@ -1,0 +1,86 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0 (Edition std-2)" version="26.1.1">
+  <diagram name="Página-1" id="QZRI5XEX4v3icSLjuebx">
+    <mxGraphModel dx="1390" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OdFzUex_ETXGbU3qXnvS-26" value="Inicio" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OdFzUex_ETXGbU3qXnvS-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OdFzUex_ETXGbU3qXnvS-27" target="OdFzUex_ETXGbU3qXnvS-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OdFzUex_ETXGbU3qXnvS-27" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;Inisira um caractere (Letra ou numero)" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;" vertex="1" parent="1">
+          <mxGeometry x="240" y="150" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OdFzUex_ETXGbU3qXnvS-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.462;entryY=0.15;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="OdFzUex_ETXGbU3qXnvS-26" target="OdFzUex_ETXGbU3qXnvS-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OdFzUex_ETXGbU3qXnvS-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OdFzUex_ETXGbU3qXnvS-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OdFzUex_ETXGbU3qXnvS-30" value="Caractere é letra?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="247.5" y="280" width="115" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="OdFzUex_ETXGbU3qXnvS-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OdFzUex_ETXGbU3qXnvS-35" target="OdFzUex_ETXGbU3qXnvS-48">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OdFzUex_ETXGbU3qXnvS-35" value="Voce digitou um número!" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OdFzUex_ETXGbU3qXnvS-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.558;entryY=0.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="OdFzUex_ETXGbU3qXnvS-30" target="OdFzUex_ETXGbU3qXnvS-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OdFzUex_ETXGbU3qXnvS-38" value="SE SIM" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="180" y="300" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OdFzUex_ETXGbU3qXnvS-39" value="SE NÃO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="379" y="300" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OdFzUex_ETXGbU3qXnvS-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OdFzUex_ETXGbU3qXnvS-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OdFzUex_ETXGbU3qXnvS-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OdFzUex_ETXGbU3qXnvS-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OdFzUex_ETXGbU3qXnvS-40" value="Letra é maiuscula?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="400" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="OdFzUex_ETXGbU3qXnvS-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OdFzUex_ETXGbU3qXnvS-41" target="OdFzUex_ETXGbU3qXnvS-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OdFzUex_ETXGbU3qXnvS-41" value="&lt;font&gt;&amp;nbsp; &quot;Você digitou uma letra maiuscula&quot;&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="510" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="OdFzUex_ETXGbU3qXnvS-45" value="SE SIM" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="418" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OdFzUex_ETXGbU3qXnvS-46" value="SE NÃO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="220" y="418" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OdFzUex_ETXGbU3qXnvS-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OdFzUex_ETXGbU3qXnvS-47" target="OdFzUex_ETXGbU3qXnvS-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OdFzUex_ETXGbU3qXnvS-47" value="&lt;font&gt;&amp;nbsp; &quot;Você digitou uma letra minuscula&quot;&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="510" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="OdFzUex_ETXGbU3qXnvS-48" value="Fim" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="660" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OdFzUex_ETXGbU3qXnvS-52" value="Descrição Narrativa abaixo&lt;div&gt;---------------------------------------------&lt;/div&gt;&lt;div&gt;1. Programa recebe Var caractere&lt;/div&gt;&lt;div&gt;2. Verifica se é letra&amp;nbsp;&lt;/div&gt;&lt;div&gt;3. Se for numero, imprima &quot;Voce digitou um numero&quot;&lt;/div&gt;&lt;div&gt;4. Se for uma letra, fazer verificação:&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;Se for maiusculo, imprima &quot;Voce digitou uma letra maiuscula&quot;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Se minusculo, imprima &quot;Voce digitou uma letra minuscula&quot;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="392.5" y="60" width="410" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

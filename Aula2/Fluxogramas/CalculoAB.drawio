@@ -1,0 +1,66 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0 (Edition std-2)" version="26.1.1">
+  <diagram name="Página-1" id="QZRI5XEX4v3icSLjuebx">
+    <mxGraphModel dx="1390" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OdFzUex_ETXGbU3qXnvS-79" value="Inicio" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="-1120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OdFzUex_ETXGbU3qXnvS-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OdFzUex_ETXGbU3qXnvS-80" target="OdFzUex_ETXGbU3qXnvS-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OdFzUex_ETXGbU3qXnvS-80" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;Leia a, b" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;" vertex="1" parent="1">
+          <mxGeometry x="140" y="-980" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OdFzUex_ETXGbU3qXnvS-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.167;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="OdFzUex_ETXGbU3qXnvS-79" target="OdFzUex_ETXGbU3qXnvS-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OdFzUex_ETXGbU3qXnvS-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OdFzUex_ETXGbU3qXnvS-82" target="OdFzUex_ETXGbU3qXnvS-80">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="-810" />
+              <mxPoint x="320" y="-950" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OdFzUex_ETXGbU3qXnvS-82" value="Se a == 0 &amp;amp;&amp;amp; b == 0" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="-870" width="130" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="OdFzUex_ETXGbU3qXnvS-86" value="Repetição" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="320" y="-910" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OdFzUex_ETXGbU3qXnvS-87" value="SE SIM" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250" y="-840" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OdFzUex_ETXGbU3qXnvS-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OdFzUex_ETXGbU3qXnvS-88">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="65" y="-580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OdFzUex_ETXGbU3qXnvS-88" value="result = (a + b) / 2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5" y="-730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OdFzUex_ETXGbU3qXnvS-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.367;entryY=-0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="OdFzUex_ETXGbU3qXnvS-82" target="OdFzUex_ETXGbU3qXnvS-88">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="49" y="-810" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OdFzUex_ETXGbU3qXnvS-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OdFzUex_ETXGbU3qXnvS-91" target="OdFzUex_ETXGbU3qXnvS-92">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OdFzUex_ETXGbU3qXnvS-91" value="result" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry y="-580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OdFzUex_ETXGbU3qXnvS-92" value="Fim" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="-590" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OdFzUex_ETXGbU3qXnvS-94" value="Descrição Narrativa&lt;div&gt;--------------------------------&lt;/div&gt;&lt;div&gt;1. Programa lê a, b&lt;/div&gt;&lt;div&gt;2. Verifica se a e b são zeros. Se sim, repete a entrada de dados.&amp;nbsp;&lt;/div&gt;&lt;div&gt;Se não, continua o programa&lt;/div&gt;&lt;div&gt;3. Calcula (a + b) / 2 e joga em uma variavel&lt;/div&gt;&lt;div&gt;4. Mostra o resultado&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="265" y="-1130" width="550" height="160" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

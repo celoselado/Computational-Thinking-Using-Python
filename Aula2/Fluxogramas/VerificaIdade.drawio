@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0 (Edition std-2)" version="26.1.1">
+  <diagram name="Página-1" id="QZRI5XEX4v3icSLjuebx">
+    <mxGraphModel dx="1390" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OdFzUex_ETXGbU3qXnvS-63" value="Inicio" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="-1130" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OdFzUex_ETXGbU3qXnvS-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OdFzUex_ETXGbU3qXnvS-64" target="OdFzUex_ETXGbU3qXnvS-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OdFzUex_ETXGbU3qXnvS-64" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Idade&lt;/div&gt;" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;" vertex="1" parent="1">
+          <mxGeometry x="150" y="-1000" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OdFzUex_ETXGbU3qXnvS-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.495;entryY=0.183;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="OdFzUex_ETXGbU3qXnvS-63" target="OdFzUex_ETXGbU3qXnvS-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OdFzUex_ETXGbU3qXnvS-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OdFzUex_ETXGbU3qXnvS-66" target="OdFzUex_ETXGbU3qXnvS-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OdFzUex_ETXGbU3qXnvS-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OdFzUex_ETXGbU3qXnvS-66" target="OdFzUex_ETXGbU3qXnvS-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OdFzUex_ETXGbU3qXnvS-66" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;Idade maior ou igual que 18" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="-890" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="OdFzUex_ETXGbU3qXnvS-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OdFzUex_ETXGbU3qXnvS-69" target="OdFzUex_ETXGbU3qXnvS-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OdFzUex_ETXGbU3qXnvS-69" value="&quot;Você é maior de idade!&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="-740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OdFzUex_ETXGbU3qXnvS-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OdFzUex_ETXGbU3qXnvS-70" target="OdFzUex_ETXGbU3qXnvS-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OdFzUex_ETXGbU3qXnvS-70" value="&quot;Você é menor de idade!&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="-740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OdFzUex_ETXGbU3qXnvS-73" value="SE SIM" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="70" y="-862" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OdFzUex_ETXGbU3qXnvS-74" value="SE NÃO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="260" y="-862" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OdFzUex_ETXGbU3qXnvS-75" value="Fim" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="-640" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OdFzUex_ETXGbU3qXnvS-78" value="Descrição Narrativa&lt;div&gt;---------------------------------&lt;/div&gt;&lt;div&gt;1. Recebe idade do usuario&lt;/div&gt;&lt;div&gt;2. Verifica se é maior de idade&lt;/div&gt;&lt;div&gt;3. Se sim, imprima &quot;Você é maior de idade&quot;.&amp;nbsp;&lt;/div&gt;&lt;div&gt;Se não, imprima &quot;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Você é menor de idade&quot;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="340" y="-1070" width="420" height="160" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
