@@ -44,6 +44,7 @@ link = f"https://api.openweathermap.org/data/2.5/weather?q={cidade}&appid={API_K
 requisicao = requests.get(link)
 requisicao_dic = requisicao.json()
 
+#Lista _Dic
 descricao = requisicao_dic['weather'][0]['description']
 temperatura = requisicao_dic['main']['temp'] - 273.15
 
@@ -108,12 +109,13 @@ estados_brasileiros = ["Acre", "Alagoas", "Amapá", "Amazonas", "Bahia", "Ceará
 
 while continuar_programa == 1:
     menu()
-    opcao = int(input("DIGITE: "))
+    
+    entrada = input("DIGITE: ")
+    if not entrada.isdigit():
+        print("Entrada inválida. Digite um número.")
+        continue
 
-    if(opcao.isdigit()):
-        print("poiii")
-    else:
-        print("oiii")
+    opcao = int(entrada)
 
     match opcao:
         case 1:
@@ -121,14 +123,24 @@ while continuar_programa == 1:
                 print("---------------------------------------------------")
                 print(cidade, f"{temperatura}°C \n!!!!! TOME ÁGUA PARA SE HIDRATAR !!!!! \nDeseja ver as práticas essências para enfrentar o calor? \n1- SIM \n2- NÃO")
                 
-                opcao = int(input("---------------------------------------------------\nDIGITE: "))
+                entrada = input("---------------------------------------------------\nDIGITE: ")
+                if not entrada.isdigit():
+                    print("Entrada inválida. Voltando ao menu.")
+                    continue
+
+                opcao = int(entrada)
 
                 if opcao == 1:
                     apresentar_praticas()  
                     print("---------------------------------------------------")
                     print("Deseja voltar ao MENU? \n1- SIM \n2- NÃO")
                     print("---------------------------------------------------")
-                    opcao = int(input("DIGITE: "))
+                    entrada = input("DIGITE: ")
+                    if not entrada.isdigit():
+                        print("Entrada inválida. Voltando ao menu.")
+                        continue
+
+                    opcao = int(entrada)
                     if opcao == 1:
                         continuar_programa = 1
                     else:
@@ -136,14 +148,19 @@ while continuar_programa == 1:
                 else:
                     continuar_programa = 2
             else:
-                print(cidade,descricao, f"{temperatura}°C \nTUDO CERTO! APROVEITE O CLIMA :D")
-        
+                print(cidade, descricao, f"{temperatura}°C \nTUDO CERTO! APROVEITE O CLIMA :D")
+
         case 2:  
             apresentar_perguntas()
             print("---------------------------------------------------")
             print("Deseja voltar ao MENU? \n1- SIM \n2- NÃO")
             print("---------------------------------------------------")
-            opcao = int(input("DIGITE: "))
+            entrada = input("DIGITE: ")
+            if not entrada.isdigit():
+                print("Entrada inválida. Voltando ao menu.")
+                continue
+
+            opcao = int(entrada)
             if opcao == 1:
                 continuar_programa = 1
             else: 
@@ -154,17 +171,29 @@ while continuar_programa == 1:
             print("---------------------------------------------------")
             print("Deseja voltar ao MENU? \n1- SIM \n2- NÃO")
             print("---------------------------------------------------")
-            opcao = int(input("DIGITE: "))     
+            entrada = input("DIGITE: ")     
+            if not entrada.isdigit():
+                print("Entrada inválida. Voltando ao menu.")
+                continue
+
+            opcao = int(entrada)
             if opcao == 1:
                 continuar_programa = 1
             else: 
                 continuar_programa = 2
+
         case 4:
             continuar_programa = 2
+
+        case _:
+            print("Opção inválida. Tente novamente.")
 
 print("---------------------------------------------------")
 print("Programa encerrado. Por favor, se cuide!!!!")
 print("---------------------------------------------------")
+
+
+
 
 
 
